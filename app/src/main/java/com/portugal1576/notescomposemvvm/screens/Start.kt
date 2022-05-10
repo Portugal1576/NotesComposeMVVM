@@ -18,6 +18,9 @@ import com.portugal1576.notescomposemvvm.MainViewModel
 import com.portugal1576.notescomposemvvm.MainViewModelFactory
 import com.portugal1576.notescomposemvvm.navigation.NavRoute
 import com.portugal1576.notescomposemvvm.ui.theme.NotesComposeMVVMTheme
+import com.portugal1576.notescomposemvvm.utils.Constans.Keys.FIREBASE_DATABASE
+import com.portugal1576.notescomposemvvm.utils.Constans.Keys.ROOM_DATABASE
+import com.portugal1576.notescomposemvvm.utils.Constans.Keys.WHAT_WILL_WE_USE
 import com.portugal1576.notescomposemvvm.utils.TYPE_FIREBASE
 import com.portugal1576.notescomposemvvm.utils.TYPE_ROOM
 
@@ -38,7 +41,7 @@ fun StartScreen(navController: NavHostController, viewModel: MainViewModel) {
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
-            Text(text = "What will we use? ")
+            Text(text = WHAT_WILL_WE_USE)
             Button(
                 onClick = {
                     mViewModel.initDatabase(TYPE_ROOM){
@@ -50,7 +53,7 @@ fun StartScreen(navController: NavHostController, viewModel: MainViewModel) {
                     .width(200.dp)
                     .padding(vertical = 8.dp)
             ) {
-                Text(text = "Room database")
+                Text(text = ROOM_DATABASE)
             }
             Button(
                 onClick = {
@@ -63,7 +66,7 @@ fun StartScreen(navController: NavHostController, viewModel: MainViewModel) {
                     .width(200.dp)
                     .padding(vertical = 8.dp)
             ) {
-                Text(text = "Firebase database")
+                Text(text = FIREBASE_DATABASE)
             }
         }
     }
