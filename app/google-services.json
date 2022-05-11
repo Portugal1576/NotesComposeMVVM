@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "184159148735",
+    "project_id": "notes-app-f68aa",
+    "storage_bucket": "notes-app-f68aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184159148735:android:14d9da0587d9c431b9440a",
+        "android_client_info": {
+          "package_name": "com.portugal1576.notescomposemvvm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184159148735-par74fv27qd9e9eusb05hojbjjp3d4mn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEUe38SeKOWvA8kNkev47iKvZvnX1A7cw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184159148735-par74fv27qd9e9eusb05hojbjjp3d4mn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
